@@ -8,7 +8,7 @@ public class ExtractMobileNo {
     public static void main(String[] args) throws IOException {
         System.out.println("Program started");
         // file to write the numbers
-        PrintWriter out = new PrintWriter("Output.txt");
+        PrintWriter out = new PrintWriter("MobileNo.txt");
 
         // pattern for matching the mobile numbers
         Pattern p = Pattern.compile("(0|91)?[6-9][0-9]{9}");
